@@ -1,0 +1,24 @@
+change jupyter notebook themes
+
+Install jupyterthemes
+
+    pip install jupyterthemes
+
+list available themes
+onedork | grade3 | oceans16 | chesterish | monokai | solarizedl | solarizedd
+
+    jt -l
+
+restore default theme
+NOTE: Need to delete browser cache after running jt -r
+If this doesn't work, try starting a new notebook session.
+
+    jt -r
+
+select theme
+
+    jt -t monokai
+
+I use below setting-
+
+    jt -t monokai -f fira -fs 10 -nf ptsans -nfs 11 -N -kl -cursw 2 -cursc r -cellw 95% -T
